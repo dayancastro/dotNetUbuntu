@@ -1,0 +1,11 @@
+/home/dayan/dev/dotNet/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.deps.json
+/home/dayan/dev/dotNet/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.runtimeconfig.json
+/home/dayan/dev/dotNet/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.runtimeconfig.dev.json
+/home/dayan/dev/dotNet/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.dll
+/home/dayan/dev/dotNet/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.pdb
+/home/dayan/dev/dotNet/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.csprojAssemblyReference.cache
+/home/dayan/dev/dotNet/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.csproj.CoreCompileInputs.cache
+/home/dayan/dev/dotNet/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.AssemblyInfoInputs.cache
+/home/dayan/dev/dotNet/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.AssemblyInfo.cs
+/home/dayan/dev/dotNet/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.dll
+/home/dayan/dev/dotNet/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.pdb
