@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using TodoApi.Models;
 
 namespace TodoApi.Controllers
 {
@@ -17,16 +18,20 @@ namespace TodoApi.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("{id:int}")]
+        public string Get(int id, string query)
         {
-            return "value";
+            return $"value {id} and query={query}";
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public IActionResult Post([FromBody]Value value)
         {
+            if(!ModelState.IsValid){
+                return BadRequest(ModelState);
+            }
+            return CreatedAtAction("get", new { id = value.id }, value);
         }
 
         // PUT api/values/5
